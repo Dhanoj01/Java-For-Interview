@@ -16,6 +16,7 @@ public class CheckCase {
 		if(c >= 'a' && c<= 'z')
 		{
 			System.out.println("Character is : "+ "Lower");
+			
 		}
 		else
 		{
