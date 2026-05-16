@@ -3,7 +3,8 @@ package Array_ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Input {
+public class OneDimentional
+{
 
 	
 	public static void main(String args[])
