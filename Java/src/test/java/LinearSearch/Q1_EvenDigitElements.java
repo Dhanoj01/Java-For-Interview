@@ -18,11 +18,9 @@ public class Q1_EvenDigitElements {
         for (int i = 0; i < n; i++) {
 
             int dcount = 0;
-
             int temp = nums[i];
 
             while (temp > 0) {
-
                 dcount++;
                 temp = temp / 10;
             }
@@ -30,6 +28,7 @@ public class Q1_EvenDigitElements {
             if (dcount % 2 == 0) {
                 count++;
             }
+            
         }
 
         return count;
