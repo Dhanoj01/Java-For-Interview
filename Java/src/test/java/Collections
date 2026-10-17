@@ -1,0 +1,35 @@
+JAVA COLLECTIONS FRAMEWORK
+│
+├── Collection Interface
+│   │
+│   ├── List Interface
+│   │   ├── ArrayList
+│   │   ├── LinkedList
+│   │   ├── Vector
+│   │   │    └── Stack
+│   │
+│   ├── Set Interface
+│   │   ├── HashSet
+│   │   ├── LinkedHashSet
+│   │   │
+│   │   └── SortedSet
+│   │        └── NavigableSet
+│   │             └── TreeSet
+│   │
+│   └── Queue Interface
+│       ├── PriorityQueue
+│       │
+│       └── Deque
+│            ├── ArrayDeque
+│            └── LinkedList
+│
+└── Map Interface       ← Not child of Collection
+    │
+    ├── HashMap
+    │    └── LinkedHashMap
+    │
+    ├── Hashtable
+    │
+    └── SortedMap
+         └── NavigableMap
+              └── TreeMap
