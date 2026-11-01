@@ -1,5 +1,6 @@
 package List_Interface;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListDemo1 {
@@ -40,12 +41,32 @@ public class LinkedListDemo1 {
 		//change the value
 		l.set(3, "chess");
 		
+		//contains()
+		System.out.println(l.contains("java"));
+		System.out.println(l.contains("chess"));
 		
+		//isEmpty
+		System.out.println(l.isEmpty());
 		
+				
+		//Reading element from LL using for loop
+		for(int i=0 ; i<l.size() ; i++)
+		{
+			System.out.print(l.get(i) +" ");
+		}
 		
+		//using for each loop
+		for(Object e : l)
+		{
+			System.out.print(e + " ");
+		}
 		
-		
-		
+		//iterator() method
+		Iterator it = l.iterator();		
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
 		
 		
 		
