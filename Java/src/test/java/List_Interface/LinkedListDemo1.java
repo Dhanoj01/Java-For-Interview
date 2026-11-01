@@ -34,6 +34,13 @@ public class LinkedListDemo1 {
 		
 		System.out.println(l);
 		
+		//retriving value
+		System.out.println(l.get(3));
+		
+		//change the value
+		l.set(3, "chess");
+		
+		
 		
 		
 		
